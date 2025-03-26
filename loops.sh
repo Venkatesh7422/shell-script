@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in {1..2*50}
+for i in {1..29950}
 
 do 
 
