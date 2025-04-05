@@ -14,8 +14,8 @@ USAGE(){
 
 while getopts ":n:m:h" opt; do
     case $opt in
-        n) HERO="$OPTORG";;
-        m) MOVIE_NAME="$OPTORG";;
+        n) HERO="$OPTARG";;
+        m) MOVIE_NAME="$OPTARG";;
         h|*) USAGE; exit;;
     esac
 done
