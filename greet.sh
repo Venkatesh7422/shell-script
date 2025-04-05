@@ -5,7 +5,7 @@ HERO=""
 MOVIE_NAME=""
 
 USAGE(){
-    echo "USAGE:: $(basename $0) -h <hero> -m <movie name>"
+    echo "USAGE:: $(basename $0) -n <hero> -m <movie name>"
     echo "options::"
     echo " -n, is hero name"
     echo " -m, is movie name"
