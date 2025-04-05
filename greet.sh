@@ -16,6 +16,8 @@ while getopts ":n:m:h" opt; do
     case $opt in
         n) HERO="$OPTARG";;
         m) MOVIE_NAME="$OPTARG";;
+        \?) echo "invalid options: -"$OPTARG"" >&2; USAGE; exit;;
+        :) USAGE; exit;;
         h|*) USAGE; exit;;
     esac
 done
