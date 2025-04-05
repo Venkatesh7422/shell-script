@@ -2,4 +2,4 @@
 
 person=$1
 
-echo "hello $PERSON, happy weekend"
+echo "hello $person, happy weekend"
