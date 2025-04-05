@@ -1,5 +1,5 @@
 #!/bin/bash
 
-person=$1
+person=$2
 
 echo "hello $person, happy weekend"
