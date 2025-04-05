@@ -7,14 +7,14 @@ MOVIE_NAME=""
 USAGE(){
     echo "USAGE:: $(basename $0) -h <hero> -m <movie name>"
     echo "options::"
-    echo " -h, is hero name"
+    echo " -n, is hero name"
     echo " -m, is movie name"
     echo "-h, is help and exit"
 }
 
 while getopts ":h:m:y" opt; do
     case $opt in
-        h) HERO="$optorg";;
+        n) HERO="$optorg";;
         m) MOVIE_NAME="$optorg";;
         h|*) USAGE: exit;;
     esac
