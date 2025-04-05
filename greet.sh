@@ -12,7 +12,7 @@ USAGE(){
     echo "-h, is help and exit"
 }
 
-While getopts ":h:m:h" opt; do
+while getopts ":h:m:y" opt; do
     case $opt in
         h) HERO="$optorg";;
         m) MOVIE_NAME="$optorg";;
